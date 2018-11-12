@@ -22,6 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:id="@+id/toolbar"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
                 android:background="@color/colorPrimary"/>
 
                 <!--табы-->
@@ -45,6 +46,17 @@
             android:layout_height="wrap_content"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
+
+        <!--кнопка добавить-->
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnAdd"
+            android:src="@drawable/plus"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginRight="@dimen/btnAdd"
+            android:layout_marginBottom="@dimen/btnAdd"/>
+
     </android.support.design.widget.CoordinatorLayout>
 
     <!-- меню свайп вправо -->
@@ -55,5 +67,7 @@
         android:layout_gravity="start"
         app:headerLayout="@layout/navigation_header"
         app:menu="@menu/menu_navigation"/>
+
+
 
 </android.support.v4.widget.DrawerLayout>
