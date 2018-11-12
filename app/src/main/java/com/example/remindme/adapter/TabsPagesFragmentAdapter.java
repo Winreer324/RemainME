@@ -6,11 +6,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.remindme.adapter.fragment.AbstractTabFragment;
-import com.example.remindme.adapter.fragment.BirthDaysFragment;
-import com.example.remindme.adapter.fragment.HistoryFragment;
-import com.example.remindme.adapter.fragment.IdeasFragment;
-import com.example.remindme.adapter.fragment.TodoFragment;
+import com.example.remindme.fragment.AbstractTabFragment;
+import com.example.remindme.fragment.BirthDaysFragment;
+import com.example.remindme.fragment.HistoryFragment;
+import com.example.remindme.fragment.IdeasFragment;
+import com.example.remindme.fragment.TodoFragment;
 
 import java.util.HashMap;
 import java.util.Map;

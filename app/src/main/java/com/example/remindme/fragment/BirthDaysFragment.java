@@ -1,4 +1,4 @@
-package com.example.remindme.adapter.fragment;
+package com.example.remindme.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 
 import com.example.remindme.R;
 
-public class HistoryFragment extends AbstractTabFragment {
+public class BirthDaysFragment extends AbstractTabFragment {
 
     private static final int LAYOUT = R.layout.fragment_example;
 
@@ -20,7 +20,7 @@ public class HistoryFragment extends AbstractTabFragment {
         HistoryFragment fragment = new HistoryFragment();
         fragment.setArguments(args);
         fragment.setContext(context);
-        fragment.setTitle(context.getString(R.string.tab_item_history));
+        fragment.setTitle(context.getString(R.string.tab_item_birthdays));
 
         return fragment;
     }
@@ -33,7 +33,6 @@ public class HistoryFragment extends AbstractTabFragment {
         view = inflater.inflate(LAYOUT, container, false);
         return view;
     }
-
     public void setContext(Context context) {
         this.context = context;
     }

@@ -1,4 +1,4 @@
-package com.example.remindme.adapter.fragment;
+package com.example.remindme.fragment;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
