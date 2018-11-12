@@ -2,20 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/actionNotificationItem"
         android:title="@string/menu_item_notification"
         android:icon="@drawable/message_text"
         android:orderInCategory="1"/>
     <item
-        android:title="@string/search"
-        android:icon="@drawable/message_text"
+        android:id="@+id/actionFavoritesItem"
+        android:title="@string/menu_item_favorites"
+        android:icon="@drawable/star"
         android:orderInCategory="1"/>
     <item
-        android:title="@string/search"
-        android:icon="@drawable/magnify"
+        android:title="@string/menu_item_archive"
+        android:icon="@drawable/package_down"
         android:orderInCategory="1"/>
     <item
-        android:title="@string/search"
-        android:icon="@drawable/magnify"
+        android:title="@string/menu_item_settings"
+        android:icon="@drawable/settings_outline"
+        android:orderInCategory="1"/>
+    <item
+        android:title="@string/menu_item_reference"
+        android:icon="@drawable/alert_circle"
         android:orderInCategory="1"/>
 
 </menu>
