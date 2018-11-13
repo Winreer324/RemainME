@@ -76,12 +76,11 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(viewPager);
     }
+    // для ссылок в меню  свайпа
     private void showNotificatioTab(){
         viewPager.setCurrentItem(Constants.TAB_ONE);
     }
-    private void showFavoritesTab(){
-        viewPager.setCurrentItem(Constants.TAB_TWO);
-    }
+    private void showFavoritesTab(){  viewPager.setCurrentItem(Constants.TAB_TWO); }
     private void showArchiveTab(){
         viewPager.setCurrentItem(Constants.TAB_THREE);
     }
