@@ -14,10 +14,10 @@ public class IdeasFragment extends AbstractTabFragment {
 
     private static final int LAYOUT = R.layout.fragment_example;
 
-    public static HistoryFragment getInstance(Context context) {
+    public static IdeasFragment getInstance(Context context) {
         Bundle args = new Bundle();
 
-        HistoryFragment fragment = new HistoryFragment();
+        IdeasFragment fragment = new IdeasFragment();
         fragment.setArguments(args);
         fragment.setContext(context);
         fragment.setTitle(context.getString(R.string.tab_item_ideas));

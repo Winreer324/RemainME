@@ -14,10 +14,10 @@ public class BirthDaysFragment extends AbstractTabFragment {
 
     private static final int LAYOUT = R.layout.fragment_example;
 
-    public static HistoryFragment getInstance(Context context) {
+    public static BirthDaysFragment getInstance(Context context) {
         Bundle args = new Bundle();
 
-        HistoryFragment fragment = new HistoryFragment();
+        BirthDaysFragment fragment = new BirthDaysFragment();
         fragment.setArguments(args);
         fragment.setContext(context);
         fragment.setTitle(context.getString(R.string.tab_item_birthdays));
